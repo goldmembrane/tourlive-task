@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.page-number-li-activate {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(90, 164, 248);
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+
+.page-number-li {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 50px;
+  font-size: 22px;
+}

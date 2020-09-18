@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+td {
+  font-size: 22px;
+  text-align: center;
+  height: 40px;
+}
+
+td:nth-child(2) {
+  font-size: 18px;
+}

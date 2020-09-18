@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.search-box {
+  display: inline-block;
+  margin-left: 460px;
+}
+
+.search-text {
+  width: 250px;
+  height: 30px;
+}
+
+.submit-search-text {
+  width: 50px;
+  height: 35px;
+}
