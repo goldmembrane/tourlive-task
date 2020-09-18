@@ -2,6 +2,7 @@ import React from "react";
 import ListContext from "./ListContext";
 import PageNumber from "./PageNumber";
 import { paginate } from "./Paginate";
+import "../css/List.css";
 
 const List = (props) => {
   const lists = props.lists;
@@ -32,6 +33,7 @@ const List = (props) => {
         list={props.lists}
         pageSize={props.size}
         change={props.change}
+        current={props.current}
       />
     </>
   );

@@ -66,7 +66,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="content-box">
         <LabelBar total={this.state.tourList} search={this.searchContext} />
         <List
           lists={this.state.tourList}

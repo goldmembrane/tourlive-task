@@ -1,5 +1,6 @@
 import React from "react";
 import SearchBar from "./SearchBar";
+import "../css/LabelBar.css";
 
 const LabelBar = (props) => {
   return (
@@ -7,9 +8,7 @@ const LabelBar = (props) => {
       <label className="total-list">
         총 {props.total.length}건의 게시물이 조회되었습니다.
       </label>
-      <div className="search-bar-box">
-        <SearchBar search={props.search} />
-      </div>
+      <SearchBar search={props.search} />
     </div>
   );
 };

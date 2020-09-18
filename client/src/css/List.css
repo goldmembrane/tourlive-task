@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 1200px;
+  margin: 40px auto;
+}
+
+thead {
+  background-color: aqua;
+}
+
+thead > tr > td {
+  text-align: center;
+  font-size: 32px;
+}
+
+thead > tr > td:nth-child(2) {
+  font-size: 32px;
+}
